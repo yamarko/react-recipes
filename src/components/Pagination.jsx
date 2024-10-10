@@ -1,4 +1,4 @@
-import styles from './Pagination.module.css'; // Додайте імпорт стилів
+import styles from './Pagination.module.css';
 
 const Pagination = ({ currentPage, totalPages, setPage }) => {
   const handlePageChange = (page) => {

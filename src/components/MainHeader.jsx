@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import SearchBar from './SearchBar'; // Імпорт компонента пошуку
-import styles from './MainHeader.module.css'; // Імпорт стилів
+import SearchBar from './SearchBar';
+import styles from './MainHeader.module.css';
 
 const MainHeader = ({ setSearchTerm }) => {
   return (
@@ -16,7 +16,7 @@ const MainHeader = ({ setSearchTerm }) => {
           </li>
         </ul>
       </nav>
-      <SearchBar setSearchTerm={setSearchTerm} /> {/* Додаємо пошуковий компонент */}
+      <SearchBar setSearchTerm={setSearchTerm} />
     </header>
   );
 };
