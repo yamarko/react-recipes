@@ -1,24 +1,24 @@
 .categoryFilter {
-    margin-bottom: 20px; /* Відступ знизу для розділення */
+    margin-bottom: 20px;
 }
 
 .label {
-    font-size: 1.2rem; /* Розмір шрифту для лейблу */
-    color: #333; /* Темно-сірий колір тексту */
-    margin-right: 10px; /* Відступ справа */
+    font-size: 1.2rem;
+    color: #333;
+    margin-right: 10px;
 }
 
 .select {
-    padding: 8px; /* Внутрішні відступи */
-    font-size: 1rem; /* Розмір шрифту */
-    border: 1px solid #ccc; /* Легкий обідок */
-    border-radius: 5px; /* Закруглені кути */
-    background-color: #fff; /* Білий фон */
-    transition: border-color 0.3s; /* Анімація зміни кольору обідка */
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: border-color 0.3s;
 }
 
 .select:hover,
 .select:focus {
-    border-color: #007BFF; /* Зміна кольору обідка при наведені/фокусі */
-    outline: none; /* Прибираємо стандартний обідок при фокусі */
+    border-color: #007BFF;
+    outline: none;
 }

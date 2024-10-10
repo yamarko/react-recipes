@@ -1,59 +1,59 @@
 .header {
-    display: flex; /* Вирівнюємо елементи в один ряд */
-    align-items: center; /* Вирівнюємо по вертикалі */
-    justify-content: space-between; /* Розподіляємо простір між елементами */
-    padding: 20px; /* Внутрішні відступи */
-    background-color: #f8f9fa; /* Світло-сірий фон */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тінь для об'єму */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .title {
-    font-size: 2rem; /* Розмір шрифту заголовка */
-    color: #333; /* Темно-сірий колір тексту */
-    margin: 0; /* Прибираємо відступи */
+    font-size: 2rem;
+    color: #333;
+    margin: 0;
 }
 
 .nav {
-    display: flex; /* Вирівнюємо навігацію в один ряд */
-    list-style-type: none; /* Без маркерів */
-    padding: 0; /* Прибираємо внутрішні відступи */
-    margin: 0 20px; /* Відступи з боків */
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 20px;
 }
 
 .nav li {
-    margin-right: 20px; /* Відстань між пунктами навігації */
+    margin-right: 20px;
 }
 
 .link {
-    text-decoration: none; /* Прибирає підкреслення */
-    color: #0c0e0f; /* Колір посилання */
-    font-size: 1.5rem; /* Змінений розмір шрифту для посилань */
-    font-weight: bold; /* Жирний шрифт */
+    text-decoration: none;
+    color: #0c0e0f;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .link:hover {
-    text-decoration: none; /* Прибираємо підкреслення при наведенні */
-    color: #364352; /* Колір при наведенні */
+    text-decoration: none;
+    color: #364352;
 }
 
 
 
 .searchBar {
-    display: flex; /* Вирівнюємо елементи поля пошуку в один ряд */
-    align-items: center; /* Вирівнюємо по вертикалі */
+    display: flex;
+    align-items: center;
 }
 
 .input {
-    padding: 8px; /* Внутрішні відступи для поля вводу */
-    font-size: 16px; /* Розмір шрифту */
-    margin-right: 8px; /* Відступ справа */
+    padding: 8px;
+    font-size: 16px;
+    margin-right: 8px;
 }
 
 .button {
-    padding: 8px 12px; /* Внутрішні відступи для кнопки */
-    font-size: 16px; /* Розмір шрифту */
-    background-color: #007BFF; /* Колір кнопки */
-    color: white; /* Колір тексту кнопки */
-    border: none; /* Без обідка */
-    cursor: pointer; /* Курсор у вигляді руки */
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
 }

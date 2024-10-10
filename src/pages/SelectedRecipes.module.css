@@ -1,46 +1,46 @@
 .selectedRecipes {
-    max-width: 800px; /* Максимальна ширина контейнера */
-    margin: 20px auto; /* Центрування контейнера */
-    padding: 20px; /* Внутрішні відступи */
-    background-color: #fff; /* Білий фон */
-    border-radius: 8px; /* Закруглені кути */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тінь для об'єму */
+    max-width: 800px; 
+    margin: 20px auto;
+    padding: 20px; 
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .recipesContainer {
-    display: flex; /* Використовуємо flex для розміщення карток */
-    flex-direction: column; /* Вертикальне вирівнювання карток */
-    gap: 20px; /* Відстань між картками */
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px; 
 }
 
 .recipeCard {
-    display: flex; /* Використовуємо flex для горизонтального розміщення зображення та тексту */
-    border: 1px solid #eaeaea; /* Легкий обідок */
-    border-radius: 8px; /* Закруглені кути */
-    padding: 15px; /* Внутрішні відступи */
-    background-color: #f9f9f9; /* Світло-сірий фон для картки */
+    display: flex; 
+    border: 1px solid #eaeaea; 
+    border-radius: 8px; 
+    padding: 15px; 
+    background-color: #f9f9f9; 
 }
 
 .recipeImage {
-    width: 250px; /* Збільшено ширину зображення */
-    height: 200px; /* Збільшено висоту зображення */
-    object-fit: cover; /* Забезпечуємо, щоб зображення не спотворювалося */
-    border-radius: 5px; /* Закруглені кути для зображення */
-    margin-right: 15px; /* Відступ справа для зображення */
+    width: 250px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 5px; 
+    margin-right: 15px; 
 }
 
 .recipeContent {
-    flex-grow: 1; /* Дозволяє тексту займати доступний простір */
+    flex-grow: 1; 
 }
 
 .recipeContent h3 {
-    margin-top: 0; /* Прибираємо відступ згорі для заголовка рецепта */
+    margin-top: 0; 
 }
 
 .recipeContent h4 {
-    margin: 10px 0 5px; /* Відступи для підзаголовків */
+    margin: 10px 0 5px; 
 }
 
 .recipeContent p {
-    line-height: 1.5; /* Висота рядка для зручності читання */
+    line-height: 1.5; 
 }

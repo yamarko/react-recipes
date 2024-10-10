@@ -1,56 +1,56 @@
 .recipesContainer {
     padding: 20px;
-    max-width: 1200px; /* Максимальна ширина контейнера */
-    margin: 0 auto; /* Центрування контейнера */
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
 .categoryFilter {
-    margin-bottom: 20px; /* Відступ під фільтром категорій */
+    margin-bottom: 20px; 
 }
 
 .recipesGrid {
-    display: flex; /* Використовуємо flex для розміщення карток */
-    flex-wrap: wrap; /* Дозволяємо карткам переходити на новий рядок */
-    justify-content: center; /* Центрування карток у контейнері */
-    gap: 10px; /* Зменшена відстань між картками */
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 10px; 
 }
 
 .recipeCard {
-    border: 1px solid #eaeaea; /* Легкий обідок */
-    border-radius: 8px; /* Закруглені кути */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Тінь для об'єму */
-    margin: 5px; /* Відстань між картками */
-    padding: 8px; /* Зменшені внутрішні відступи */
-    display: flex; /* Використовуємо flex для вертикального центрування */
-    flex-direction: column; /* Вертикальне вирівнювання елементів */
-    align-items: center; /* Центрування елементів по горизонталі */
-    transition: transform 0.2s; /* Анімація при наведенні */
+    border: 1px solid #eaeaea; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    margin: 5px; 
+    padding: 8px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    transition: transform 0.2s; 
 }
 
 .recipeCard:hover {
-    transform: scale(1.05); /* Збільшення при наведенні */
+    transform: scale(1.05); 
 }
 
 .recipeCard img {
-    width: 70%; /* Зменшена ширина картинки до 70% */
-    height: auto; /* Автоматична висота для збереження пропорцій */
-    border-radius: 8px; /* Закруглені кути для зображення */
-    display: block; /* Робимо блоковим для правильного центрування */
-    margin: 0 auto; /* Центруємо зображення */
+    width: 70%;
+    height: auto; 
+    border-radius: 8px; 
+    display: block; 
+    margin: 0 auto; 
 }
 
 
 .recipeCard h3 {
-    font-size: 1.8rem; /* Зменшений розмір шрифту заголовка */
-    color: #333; /* Темно-сірий колір тексту */
+    font-size: 1.8rem;
+    color: #333;
     margin: 20px 0 10px;
     padding-left: 30px;
 }
 
 .recipeCard p {
-    font-size: 1.3rem; /* Зменшений розмір шрифту для деталей */
-    color: #666; /* Світло-сірий колір для деталей */
-    margin: 10px 0; /* Відступи над та під текстом */
+    font-size: 1.3rem;
+    color: #666;
+    margin: 10px 0;
     padding-left: 30px;
 }
 
@@ -58,31 +58,30 @@ a {
     text-decoration: none; /* Прибирає підкреслення */
 }
 
-
 .recipeCard button {
-    background-color: #ff6347; /* Колір кнопки (томато) */
-    color: white; /* Білий текст */
+    background-color: #ff6347;
+    color: white; 
     font-size: 1rem;
-    border: none; /* Без обідка */
-    border-radius: 5px; /* Закруглені кути */
-    padding: 6px 10px; /* Зменшені внутрішні відступи кнопки */
-    cursor: pointer; /* Показати курсор у вигляді руки */
-    transition: background-color 0.3s; /* Анімація зміни кольору */
+    border: none; 
+    border-radius: 5px; 
+    padding: 6px 10px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
 }
 
 .recipeCard button:hover {
-    background-color: #ff4500; /* Темніший колір при наведенні */
+    background-color: #ff4500; 
 }
 
 .noRecipes {
-    font-size: 1.1rem; /* Розмір шрифту для повідомлення про відсутність рецептів */
-    color: #999; /* Світло-сірий колір тексту */
-    text-align: center; /* Центрування тексту */
-    margin-top: 20px; /* Відступ зверху */
+    font-size: 1.1rem; 
+    color: #999; 
+    text-align: center; 
+    margin-top: 20px; 
 }
 
 .pagination {
-    display: flex; /* Використовуємо flex для розміщення пагінації */
-    justify-content: center; /* Центрування пагінації */
-    margin-top: 20px; /* Відступ зверху */
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px;
 }
