@@ -1,0 +1,24 @@
+.categoryFilter {
+    margin-bottom: 20px; /* Відступ знизу для розділення */
+}
+
+.label {
+    font-size: 1.2rem; /* Розмір шрифту для лейблу */
+    color: #333; /* Темно-сірий колір тексту */
+    margin-right: 10px; /* Відступ справа */
+}
+
+.select {
+    padding: 8px; /* Внутрішні відступи */
+    font-size: 1rem; /* Розмір шрифту */
+    border: 1px solid #ccc; /* Легкий обідок */
+    border-radius: 5px; /* Закруглені кути */
+    background-color: #fff; /* Білий фон */
+    transition: border-color 0.3s; /* Анімація зміни кольору обідка */
+}
+
+.select:hover,
+.select:focus {
+    border-color: #007BFF; /* Зміна кольору обідка при наведені/фокусі */
+    outline: none; /* Прибираємо стандартний обідок при фокусі */
+}

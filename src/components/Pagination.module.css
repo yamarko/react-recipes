@@ -1,0 +1,30 @@
+.pagination {
+    display: flex; /* Використовуємо flex для горизонтального розміщення кнопок */
+    align-items: center; /* Вертикальне вирівнювання */
+    justify-content: center; /* Центрування вмісту */
+    margin: 20px 0; /* Відступи зверху і знизу */
+}
+
+.pagination button {
+    background-color: transparent; /* Прозорий фон кнопок */
+    color: #007BFF; /* Колір тексту кнопки */
+    border: none; /* Без обідка */
+    border-radius: 4px; /* Закруглені кути */
+    padding: 10px 15px; /* Внутрішні відступи для кнопок */
+    margin: 0 5px; /* Відстань між кнопками */
+    cursor: pointer; /* Змінюємо курсор на руку */
+    font-size: 1rem; /* Розмір шрифту кнопок */
+}
+
+.pagination button:hover {
+    color: #0056b3; /* Темніший колір тексту при наведенні */
+}
+
+.pagination button:disabled {
+    color: #e0e0e0; /* Світло-сірий колір для неактивних кнопок */
+    cursor: not-allowed; /* Курсор для неактивних кнопок */
+}
+
+.pagination .active {
+    font-weight: bold; /* Жирний текст для активної кнопки */
+}

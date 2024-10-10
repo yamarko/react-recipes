@@ -1,0 +1,48 @@
+.recipeDetail {
+    max-width: 800px; /* Максимальна ширина контейнера */
+    margin: 20px auto; /* Центрування контейнера */
+    padding: 20px; /* Внутрішні відступи */
+    border: 1px solid #eaeaea; /* Легкий обідок */
+    border-radius: 8px; /* Закруглені кути */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тінь для об'єму */
+    background-color: #fff; /* Білий фон */
+}
+
+.recipeDetail h2 {
+    font-size: 2rem; /* Розмір шрифту заголовка */
+    color: #333; /* Темно-сірий колір тексту */
+    margin-bottom: 20px; /* Відступ під заголовком */
+    text-align: center; /* Центрування заголовка */
+}
+
+.recipeDetail img {
+    width: 100%; /* Ширина зображення на 100% */
+    height: auto; /* Автоматична висота для збереження пропорцій */
+    border-radius: 8px; /* Закруглені кути для зображення */
+    margin-bottom: 20px; /* Відступ під зображенням */
+}
+
+.recipeDetail h3 {
+    font-size: 1.5rem; /* Розмір шрифту підзаголовка */
+    color: #333; /* Темно-сірий колір тексту */
+    margin-top: 20px; /* Відступ зверху */
+    margin-bottom: 10px; /* Відступ знизу */
+}
+
+.recipeDetail ul {
+    list-style-type: none; /* Без маркерів у списку */
+    padding: 0; /* Прибрані внутрішні відступи */
+}
+
+.recipeDetail li {
+    background-color: #f9f9f9; /* Світло-сірий фон для інгредієнтів */
+    border-radius: 5px; /* Закруглені кути для елементів списку */
+    padding: 8px; /* Внутрішні відступи для елементів списку */
+    margin: 5px 0; /* Відступи між елементами списку */
+}
+
+.recipeDetail p {
+    font-size: 1rem; /* Розмір шрифту для інструкцій */
+    color: #666; /* Світло-сірий колір тексту */
+    line-height: 1.5; /* Висота рядка для зручності читання */
+}

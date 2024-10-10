@@ -1,0 +1,46 @@
+.selectedRecipes {
+    max-width: 800px; /* Максимальна ширина контейнера */
+    margin: 20px auto; /* Центрування контейнера */
+    padding: 20px; /* Внутрішні відступи */
+    background-color: #fff; /* Білий фон */
+    border-radius: 8px; /* Закруглені кути */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тінь для об'єму */
+}
+
+.recipesContainer {
+    display: flex; /* Використовуємо flex для розміщення карток */
+    flex-direction: column; /* Вертикальне вирівнювання карток */
+    gap: 20px; /* Відстань між картками */
+}
+
+.recipeCard {
+    display: flex; /* Використовуємо flex для горизонтального розміщення зображення та тексту */
+    border: 1px solid #eaeaea; /* Легкий обідок */
+    border-radius: 8px; /* Закруглені кути */
+    padding: 15px; /* Внутрішні відступи */
+    background-color: #f9f9f9; /* Світло-сірий фон для картки */
+}
+
+.recipeImage {
+    width: 250px; /* Збільшено ширину зображення */
+    height: 200px; /* Збільшено висоту зображення */
+    object-fit: cover; /* Забезпечуємо, щоб зображення не спотворювалося */
+    border-radius: 5px; /* Закруглені кути для зображення */
+    margin-right: 15px; /* Відступ справа для зображення */
+}
+
+.recipeContent {
+    flex-grow: 1; /* Дозволяє тексту займати доступний простір */
+}
+
+.recipeContent h3 {
+    margin-top: 0; /* Прибираємо відступ згорі для заголовка рецепта */
+}
+
+.recipeContent h4 {
+    margin: 10px 0 5px; /* Відступи для підзаголовків */
+}
+
+.recipeContent p {
+    line-height: 1.5; /* Висота рядка для зручності читання */
+}

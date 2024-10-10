@@ -1,0 +1,59 @@
+.header {
+    display: flex; /* Вирівнюємо елементи в один ряд */
+    align-items: center; /* Вирівнюємо по вертикалі */
+    justify-content: space-between; /* Розподіляємо простір між елементами */
+    padding: 20px; /* Внутрішні відступи */
+    background-color: #f8f9fa; /* Світло-сірий фон */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тінь для об'єму */
+}
+
+.title {
+    font-size: 2rem; /* Розмір шрифту заголовка */
+    color: #333; /* Темно-сірий колір тексту */
+    margin: 0; /* Прибираємо відступи */
+}
+
+.nav {
+    display: flex; /* Вирівнюємо навігацію в один ряд */
+    list-style-type: none; /* Без маркерів */
+    padding: 0; /* Прибираємо внутрішні відступи */
+    margin: 0 20px; /* Відступи з боків */
+}
+
+.nav li {
+    margin-right: 20px; /* Відстань між пунктами навігації */
+}
+
+.link {
+    text-decoration: none; /* Прибирає підкреслення */
+    color: #0c0e0f; /* Колір посилання */
+    font-size: 1.5rem; /* Змінений розмір шрифту для посилань */
+    font-weight: bold; /* Жирний шрифт */
+}
+
+.link:hover {
+    text-decoration: none; /* Прибираємо підкреслення при наведенні */
+    color: #364352; /* Колір при наведенні */
+}
+
+
+
+.searchBar {
+    display: flex; /* Вирівнюємо елементи поля пошуку в один ряд */
+    align-items: center; /* Вирівнюємо по вертикалі */
+}
+
+.input {
+    padding: 8px; /* Внутрішні відступи для поля вводу */
+    font-size: 16px; /* Розмір шрифту */
+    margin-right: 8px; /* Відступ справа */
+}
+
+.button {
+    padding: 8px 12px; /* Внутрішні відступи для кнопки */
+    font-size: 16px; /* Розмір шрифту */
+    background-color: #007BFF; /* Колір кнопки */
+    color: white; /* Колір тексту кнопки */
+    border: none; /* Без обідка */
+    cursor: pointer; /* Курсор у вигляді руки */
+}
