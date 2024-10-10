@@ -56,7 +56,7 @@ const Recipes = ({ toggleRecipeSelection, selectedRecipeIds, searchTerm }) => {
 
       {/* Перевірка чи є рецепти у вибраній категорії */}
       {currentRecipes.length === 0 ? (
-        <p>{selectedCategory ? "Немає рецептів у вибраній категорії." : "Немає результатів за вашим запитом."}</p>
+        <p>{selectedCategory ? "Not found" : "Not found"}</p>
       ) : (
         <div className={styles.recipesGrid}>
           {currentRecipes.map((meal) => (

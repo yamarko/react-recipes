@@ -43,7 +43,7 @@ const RecipeDetail = () => {
 
       <h3>Instructions:</h3>
       <p>{data.strInstructions}</p>
-      {/* Можна додати інші поля, якщо потрібно */}
+      {/* Можна додати інші поля */}
     </div>
   );
 };
